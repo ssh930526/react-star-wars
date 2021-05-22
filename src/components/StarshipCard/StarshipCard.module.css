@@ -1,0 +1,15 @@
+.StarshipCard {
+    color: white;
+    background-color: rgb(4, 46, 46);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3px;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 7px;
+    border: 4px solid rgb(54, 51, 51);
+    flex-wrap: wrap;
+
+}
