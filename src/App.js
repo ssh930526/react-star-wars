@@ -33,12 +33,14 @@ function App() {
       <header className="App-header">
         <h1>React Star Wars</h1>
       </header>
+      <div className='container'>
       {
         state.results.map((starship, idx) => {
           return <StarshipCard starship={starship} />
   })
 }
     
+      </div>
     </div>
   );
 }
